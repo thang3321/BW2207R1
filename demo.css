@@ -1,0 +1,46 @@
+/* chỉ định đường viền */
+table, td, th {
+    border: 1px solid black;
+}
+/* thu gọn thành đường viền duy nhất */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+/* thu gọn thành đường viền duy nhất */
+table {
+    border-collapse: collapse;
+}
+/* chỉ định đường viền */
+table, td, th {
+    border: 1px solid black;
+} 
+/* chiều cao bảng  */
+th {
+    height: 50px;
+}
+/* căn chỉnh nội dung trong th theo chiều ngang */
+th {
+    text-align: left;
+}
+/* căn chỉnh nội dung trong td theo chiều dọc */
+td {
+    height: 50px;
+    vertical-align: bottom;
+}
+/* thêm phần đệm cho th td */
+th, td {
+    padding: 15px;
+}
+/* căn ngang th td sang trái là thêm 8px phần đệm */
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+/* hiển thị màu nền của tr */
+tr:nth-child(even){background-color: #f2f2f2}
+/* màu nền background xanh lá, màu chữ trắng */
+th {
+    background-color: #4CAF50;
+    color: white;
+}
